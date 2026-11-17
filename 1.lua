@@ -1480,7 +1480,7 @@ local MasterWelcomeUI = (function()
         local WelcomeUI = {Width = 600, Height = 276}
         local WelcomeText = {
             "OWNER VCheat", 
-            "Магические пули, скинченджер и множество других функций", 
+            "Магические пули, скинченджер\nи множество других функций", 
             "Эти функции доступны только в тарифе Pro",
         }
         local UI = {_shown = false, _data = nil}
@@ -1601,10 +1601,10 @@ local MasterWelcomeUI = (function()
                 local title = text(WelcomeText[1], 24, 23, W - 48, 44, 19, color(255, 253, 247), 5)
                 pcall(function() title:SetShadowOffset(vector(0, 1)) end)
                 pcall(function() title:SetShadowColorAndOpacity(color(40, 3, 12, 0.45)) end)
-                rect(30, 100, W - 60, 54, color(255, 226, 159), 3)
-                rect(30, 100, 4, 54, color(160, 33, 49), 4)
-                text(WelcomeText[2], 46, 110, W - 92, 38, 23, color(115, 25, 45), 5)
-                text(WelcomeText[3], 30, 168, W - 60, 32, 17, color(130, 34, 47), 5)
+                rect(30, 94, W - 60, 70, color(255, 226, 159), 3)
+                rect(30, 94, 4, 70, color(160, 33, 49), 4)
+                text(WelcomeText[2], 46, 99, W - 92, 60, 21, color(115, 25, 45), 5)
+                text(WelcomeText[3], 30, 170, W - 60, 30, 17, color(130, 34, 47), 5)
                 local button = make("Button", data.Container)
                 pcall(function() button:SetBackgroundColor(color(131, 25, 47)) end)
                 visibility(button, visible)
