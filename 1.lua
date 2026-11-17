@@ -1480,8 +1480,8 @@ local MasterWelcomeUI = (function()
         local WelcomeUI = {Width = 600, Height = 276}
         local WelcomeText = {
             "OWNER VCheat", 
-            "Kill limit 8-10", 
-            "Play smart and avoid report",
+            "Магические пули, скинченджер и множество других функций", 
+            "Эти функции доступны только в тарифе Pro",
         }
         local UI = {_shown = false, _data = nil}
         local function detach(data)
