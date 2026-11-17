@@ -5475,7 +5475,7 @@ function MOKING.ShowWelcomePopup()
     local function onOK() end
 
     local title = "VCHEAT VIP MOD"
-    local body  = "Магические пули, Скинченджер и многие другие функции доступны только в тарифе Pro."
+    local body  = "Магические пули, скинченджер\nи множество других функций\n\nЭти функции доступны только в тарифе Pro."
 
     local ok = pcall(function()
       Msg.Show(4, title, body, onJoin, onOK, "JOIN", "OK")
